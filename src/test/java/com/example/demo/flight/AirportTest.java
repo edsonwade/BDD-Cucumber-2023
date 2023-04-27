@@ -1,10 +1,10 @@
 package com.example.demo.flight;
 
 
-import com.example.demo.airport.BusinessFlight;
-import com.example.demo.airport.EconomyFlight;
-import com.example.demo.airport.Flight;
-import com.example.demo.airport.Passenger;
+import com.example.demo.persistence.airport.BusinessFlight;
+import com.example.demo.persistence.airport.EconomyFlight;
+import com.example.demo.persistence.airport.Flight;
+import com.example.demo.persistence.airport.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

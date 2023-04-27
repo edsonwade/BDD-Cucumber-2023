@@ -15,8 +15,4 @@ import org.junit.runner.RunWith;
 	snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class CucumberTest {
 
-	/**
-	 * This class should be empty, step definitions should be in separate classes.
-	 */
-
 }

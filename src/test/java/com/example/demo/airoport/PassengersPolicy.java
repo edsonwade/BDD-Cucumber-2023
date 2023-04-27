@@ -1,10 +1,10 @@
 package com.example.demo.airoport;
 
 
-import com.example.demo.airport.BusinessFlight;
-import com.example.demo.airport.EconomyFlight;
-import com.example.demo.airport.Flight;
-import com.example.demo.airport.Passenger;
+import com.example.demo.persistence.airport.BusinessFlight;
+import com.example.demo.persistence.airport.EconomyFlight;
+import com.example.demo.persistence.airport.Flight;
+import com.example.demo.persistence.airport.Passenger;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
