@@ -1,4 +1,4 @@
-package com.example.demo.airport;
+package com.example.demo.persistence.airport;
 
 public class BusinessFlight extends Flight {
 	
