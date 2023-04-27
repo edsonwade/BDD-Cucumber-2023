@@ -1,13 +1,13 @@
-package com.pluralsight.bddfundamentals.airport;
+package com.example.demo.airoport;
 
-import com.pluralsight.bddfundamentals.airport.BusinessFlight;
-import com.pluralsight.bddfundamentals.airport.EconomyFlight;
-import com.pluralsight.bddfundamentals.airport.Flight;
-import com.pluralsight.bddfundamentals.airport.Passenger;
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+
+import com.example.demo.airport.BusinessFlight;
+import com.example.demo.airport.EconomyFlight;
+import com.example.demo.airport.Flight;
+import com.example.demo.airport.Passenger;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;

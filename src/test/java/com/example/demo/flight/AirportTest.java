@@ -1,5 +1,10 @@
-package com.pluralsight.bddfundamentals.airport;
+package com.example.demo.flight;
 
+
+import com.example.demo.airport.BusinessFlight;
+import com.example.demo.airport.EconomyFlight;
+import com.example.demo.airport.Flight;
+import com.example.demo.airport.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

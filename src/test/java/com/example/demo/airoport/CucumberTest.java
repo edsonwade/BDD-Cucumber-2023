@@ -1,8 +1,8 @@
-package com.pluralsight.bddfundamentals.airport;
+package com.example.demo.airoport;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.SnippetType;
-import cucumber.api.junit.Cucumber;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 /**
@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 	plugin = {"pretty"},
-	snippets = SnippetType.CAMELCASE,
-	features = "classpath:features")
+	features = "classpath:features",
+	snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class CucumberTest {
 
 	/**
