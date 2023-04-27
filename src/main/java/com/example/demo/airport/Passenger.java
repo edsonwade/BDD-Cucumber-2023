@@ -1,9 +1,9 @@
-package com.example.demo;
+package com.example.demo.airport;
 
 public class Passenger {
 
-	private String name;
-	private boolean vip;
+	private final String name;
+	private final boolean vip;
 
 	public Passenger(String name, boolean vip) {
 		this.name = name;

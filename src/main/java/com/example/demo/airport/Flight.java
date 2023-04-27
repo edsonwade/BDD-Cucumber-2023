@@ -1,12 +1,15 @@
-package com.example.demo;
+package com.example.demo.airport;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public abstract class Flight {
 
 	private String id;
+
+	Set<Passenger> passengerSet = new HashSet<>();
+
+
+
 	List<Passenger> passengersList = new ArrayList<Passenger>();
 
 	public Flight(String id) {
@@ -19,6 +22,10 @@ public abstract class Flight {
 
 	public List<Passenger> getPassengersList() {
 		return Collections.unmodifiableList(passengersList);
+	}
+
+	public Set<Passenger> getPassengersSet() {
+		return Collections.unmodifiableSet(passengerSet);
 	}
 
 	public abstract boolean addPassenger(Passenger passenger);

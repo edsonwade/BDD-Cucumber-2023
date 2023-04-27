@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.airport;
 
 public class EconomyFlight extends Flight {
 
@@ -8,8 +8,11 @@ public class EconomyFlight extends Flight {
 
 	@Override
 	public boolean addPassenger(Passenger passenger) {
-		return passengersList.add(passenger);
+		passengersList.add(passenger);
+		return true;
 	}
+
+
 
 	@Override
 	public boolean removePassenger(Passenger passenger) {
